@@ -6,7 +6,6 @@ import {
   Rocket,
   Menu,
   X,
-  ChevronDown,
   Lightbulb,
   GitCompare,
   Search,
@@ -165,11 +164,6 @@ export default function Navbar() {
         </AnimatePresence>
       </motion.nav>
 
-      {/* Scroll down indicator on hero */}
-      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-40 scroll-indicator hidden md:flex flex-col items-center gap-1 opacity-50 hover:opacity-100 transition-opacity cursor-pointer" onClick={() => scrollTo("section1")}>
-        <span className="text-purple-400 text-xs font-medium">اسكرول للأسفل</span>
-        <ChevronDown className="w-5 h-5 text-purple-400" />
-      </div>
     </>
   );
 }
