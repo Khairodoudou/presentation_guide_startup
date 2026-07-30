@@ -4,10 +4,7 @@ import { motion } from "framer-motion";
 import {
   Rocket,
   Heart,
-  Github,
-  Linkedin,
   Globe,
-  Mail,
   ArrowUp,
   Lightbulb,
   GitCompare,
