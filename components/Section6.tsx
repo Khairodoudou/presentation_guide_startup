@@ -16,21 +16,21 @@ import {
 
 const steps = [
   {
-    num: "١",
+    num: "1",
     icon: FileText,
     title: "تسجل وتبعث الملف",
     desc: "عبر منصة Startup.dz — تكمل جميع المعلومات المطلوبة",
     color: "from-purple-600 to-indigo-600",
   },
   {
-    num: "٢",
+    num: "2",
     icon: ClipboardCheck,
     title: "اللجنة الوطنية تدرس الملف",
     desc: "اللجنة الوطنية للتوسيم تراجع المشروع وتتحقق من شروط الابتكار",
     color: "from-indigo-600 to-blue-600",
   },
   {
-    num: "٣",
+    num: "3",
     icon: Award,
     title: "تتحصل على اللقب",
     desc: 'إذا المشروع يستوفي الشروط، تتحصل على Label "Projet Innovant"',

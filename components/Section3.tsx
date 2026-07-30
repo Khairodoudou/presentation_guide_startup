@@ -33,21 +33,21 @@ const problems = [
 
 const marketSteps = [
   {
-    num: "١",
+    num: "1",
     icon: AlertCircle,
     question: "واش هو المشكل؟",
     answer: "مثال: الطلبة يلقاو صعوبة باش يلقاو Stage",
     color: "from-purple-600 to-indigo-600",
   },
   {
-    num: "٢",
+    num: "2",
     icon: Users,
     question: "شكون الناس لي عندهم هاد المشكل؟",
     answer: "مثال: طلبة الجامعة، المتخرجين الجدد",
     color: "from-indigo-600 to-blue-600",
   },
   {
-    num: "٣",
+    num: "3",
     icon: ShoppingBag,
     question: "كاين حلول في السوق؟",
     answer: "ابحث في Google, Play Store, App Store",
@@ -55,7 +55,7 @@ const marketSteps = [
     subItems: ["Google", "Play Store", "App Store"],
   },
   {
-    num: "٤",
+    num: "4",
     icon: Star,
     question: "واش يميز الحل تاعك؟",
     answer: "",
@@ -63,7 +63,7 @@ const marketSteps = [
     bullets: ["أسهل في الاستعمال", "أسرع", "أقل تكلفة", "موجه للسوق الجزائرية"],
   },
   {
-    num: "٥",
+    num: "5",
     icon: MessageSquare,
     question: "اسأل الناس",
     answer: "",
