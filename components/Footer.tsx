@@ -31,7 +31,7 @@ const sections = [
 ];
 
 const resources = [
-  { label: "منصة Startup.dz", href: "https://www.startup.dz", icon: Globe },
+  { label: "منصة Startup.dz", href: "https://startup.dz/", icon: Globe },
   { label: "Business Model Canvas", href: "https://www.strategyzer.com", icon: ExternalLink },
   { label: "Figma للتصميم", href: "https://www.figma.com", icon: ExternalLink },
 ];

@@ -113,10 +113,15 @@ export default function Section6() {
                 هو اعتراف رسمي من الدولة يثبت أن مشروعك مبتكر ويستوفي الشروط المطلوبة
                 للحصول على مزايا وتسهيلات خاصة بالمؤسسات الناشئة.
               </p>
-              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-amber-900/30 border border-amber-600/30 w-fit">
-                <Building2 className="w-4 h-4 text-amber-400" />
-                <span className="text-amber-300 text-sm font-semibold">عبر منصة Startup.dz</span>
-              </div>
+              <a
+                href="https://startup.dz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-amber-900/30 border border-amber-600/30 hover:border-amber-500/60 hover:bg-amber-900/50 transition-all hover:scale-105 w-fit cursor-pointer group"
+              >
+                <Building2 className="w-4 h-4 text-amber-400 group-hover:text-amber-300 transition-colors" />
+                <span className="text-amber-300 text-sm font-semibold group-hover:text-white transition-colors">عبر منصة Startup.dz</span>
+              </a>
             </div>
           </div>
         </motion.div>
