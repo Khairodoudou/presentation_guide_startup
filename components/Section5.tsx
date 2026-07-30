@@ -3,12 +3,11 @@
 import { motion } from "framer-motion";
 import {
   Code2,
-  Figma,
+  PenTool,
   Layers,
   Users,
   CheckCircle2,
   XCircle,
-  Play,
   Eye,
   Zap,
 } from "lucide-react";
@@ -28,7 +27,7 @@ const mvpFeatures = [
 ];
 
 const protoTools = [
-  { name: "Figma", desc: "تصميم واجهات احترافية", icon: Figma },
+  { name: "Figma", desc: "تصميم واجهات احترافية", icon: PenTool },
   { name: "Canva", desc: "صفحات بسيطة وجذابة", icon: Layers },
   { name: "Landing Page", desc: "موقع بسيط فيه الواجهات فقط", icon: Eye },
 ];
